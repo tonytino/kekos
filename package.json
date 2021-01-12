@@ -1,0 +1,14 @@
+{
+  "name": "kekos",
+  "version": "1.0.0",
+  "description": "Keycodes utility?",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "keycode"
+  ],
+  "author": "",
+  "license": "ISC"
+}
