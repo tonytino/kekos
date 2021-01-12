@@ -1,7 +1,8 @@
 {
-  "name": "kekos",
+  "name": "@tonytino/kekos",
   "version": "1.0.0",
   "description": "Keycodes utility?",
+  "repository": "git@github.com:tonytino/kekos.git",
   "main": "index.js",
   "scripts": {
     "test": "jest"
