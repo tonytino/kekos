@@ -10,5 +10,8 @@
     "keycode"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
