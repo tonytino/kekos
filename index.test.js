@@ -10,7 +10,7 @@ describe("Kekos", () => {
 
   test("will invoke the callback when permitted key code provided", () => {
     const callback = jest.fn();
-    const event = { code: "Enter" };
+    const event = { key: "Enter" };
     const onKeyDown = kekos({ callback });
 
     expect(callback).not.toHaveBeenCalled();
@@ -22,7 +22,7 @@ describe("Kekos", () => {
 
   test("will not invoke the callback when unpermitted key code provided", () => {
     const callback = jest.fn();
-    const event = { code: "ControlLeft" };
+    const event = { key: "Control" };
     const onKeyDown = kekos({ callback });
 
     onKeyDown(event);
