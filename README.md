@@ -1,10 +1,11 @@
 # Kekos
 
 Utility package used to easily apply key code support for key press events you'd like to potentially fire a callback in response to.
+
 ## Getting Started
 
 ```bash
-npm i kekos
+npm i @tonytino/kekos
 ```
 
 ## Example Usage
